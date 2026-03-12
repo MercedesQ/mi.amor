@@ -38,7 +38,7 @@ function enviarWhats() {
 
     let mensaje = document.getElementById("mensaje").value
 
-    let numero = "593996314786"
+    let numero = "593999182327"
 
     let url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje)
 
