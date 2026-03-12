@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestra Historia ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="hearts"></div>
+
+    <div class="login" id="login">
+
+        <h2>Nuestra historia ❤️</h2>
+
+        <input id="nombre" placeholder="Tu nombre">
+        <input id="lugar" placeholder="¿Dónde nos conocimos?">
+        <input id="fecha" placeholder="Número especial">
+        <input id="color" placeholder="Color favorito">
+
+        <button onclick="verificar()">Entrar ❤️</button>
+
+    </div>
+
+
+    <div id="contenido" class="contenido">
+
+        <h1>Felices 2 meses mi amor ❤️</h1>
+
+        <div class="contador" id="contador"></div>
+
+        <div class="contenedor-sobre">
+
+            <div class="envelope" id="sobre" onclick="abrirCarta()">
+
+                <div class="flap"></div>
+
+                <div class="letter">
+                    <p>
+                        Gracias por todos los momentos juntos ❤️
+                        Cada día contigo es el mejor de mi vida.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h2>Nuestras fotos</h2>
+
+        <div class="galeria">
+
+            <img src="img/foto1.jpeg">
+            <img src="img/foto2.jpeg">
+            <img src="img/foto3.jpeg">
+
+        </div>
+        <div class="galeria">
+
+            <img src="img/foto4.jpeg">
+            <img src="img/foto5.jpeg">
+            <img src="img/foto6.jpeg">
+
+        </div>
+
+        <h2>Nuestra Línea de Amor</h2>
+
+        <div class="timeline">
+
+            <div class="container left">
+                <div class="content">👋 Nos conocimos - 25 May 2025</div>
+            </div>
+
+            <div class="container right">
+                <div class="content">🤝 Empezamos una amistad con propósito - 01 Sept 2025</div>
+            </div>
+
+            <div class="container left">
+                <div class="content">🎯 Planteamos nuestros objetivos - 06 Ene 2026</div>
+            </div>
+
+            <div class="container right">
+                <div class="content">🚀 Empezamos nuestros objetivos - 10 Ene 2026</div>
+            </div>
+
+            <div class="container left">
+                <div class="content">❤️ Nuestro presente feliz - 10 Mar 2026</div>
+            </div>
+
+        </div>
+
+        <h2>Nuestra canción</h2>
+        <div class="video">
+            <iframe width="560" height="315"
+                src="https://www.youtube-nocookie.com/embed/gZcm-t2OZoM?si=jkEjWdSQJ1dvgu3j"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <h2>Envíame un mensaje</h2>
+
+        <input id="mensaje" placeholder="Escribe algo bonito">
+
+        <button onclick="enviarWhats()">Enviar ❤️</button>
+
+    </div>
+
+    <audio autoplay loop>
+        <source src="audio/musica.mp3">
+    </audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
