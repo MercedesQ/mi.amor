@@ -6,10 +6,10 @@ function verificar() {
     let color = document.getElementById("color").value
 
     if (
-        nombre.toLowerCase() == "michelle" &&
-        lugar.toLowerCase() == "iglesia" &&
-        fecha == "10" &&
-        color.toLowerCase() == "negro"
+        nombre.trim().toLowerCase() == "michelle" &&
+        lugar.trim().toLowerCase() == "iglesia" &&
+        fecha.trim() == "10" &&
+        color.trim().toLowerCase() == "negro"
     ) { 
 
         document.getElementById("login").style.display = "none"
